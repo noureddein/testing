@@ -127,7 +127,7 @@ function arrAvrg() {
   document.write(arrSum() / arr.length);
 
 }
-
+// Challenge #12
 function posNum() {
   var arr1 = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
   var sum = 0;
