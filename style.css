@@ -1,0 +1,12 @@
+:root{
+    --main-color:gray;
+    --alt-color:green;
+}
+
+.p1{
+    color: var(--main-color);
+}
+
+.p2{
+    color: var(--alt-color)
+}
