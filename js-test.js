@@ -110,14 +110,32 @@ function sum30() {
   document.write(sum);
 }
 
-function arrSum(){
-var arr = [1, 2, 3, 4, 5];
-var sum = 0;
-for (var i = 0; i <= 4; i++) {
-  sum = sum + arr[i];
+function arrSum() {
+  var arr = [1, 2, 3, 4, 5, 5];
+  var sum = 0;
+  for (var i = 0; i <= 5; i++) {
+    sum = sum + arr[i];
+  }
+
+  document.write(sum);
+  document.write("<br/>");
+  document.write(sum / arr.length);
 }
 
+function arrAvrg() {
+
+  document.write(arrSum() / arr.length);
+
+}
+
+function posNum() {
+  var arr1 = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+  var sum = 0;
+  for (var i = 0; i < arr1.length; i++) {
+    
+    if (arr1[i] >0){
+      sum = sum + arr1[i];
+    }
+}
 document.write(sum);
-document.write("<br/>");
-document.write(sum / arr.length);
 }
